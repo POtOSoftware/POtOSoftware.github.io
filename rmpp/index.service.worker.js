@@ -4,7 +4,7 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = '1741759155|22845795091';
+const CACHE_VERSION = '1742344814|33625615';
 /** @type {string} */
 const CACHE_PREFIX = 'RankMan++-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
