@@ -1,30 +1,38 @@
 <!DOCTYPE html>
 
 <html>
-
 	<head>
 		<title>POtO Software</title>
-		<link rel=stylesheet href="stylesheet.css">
-		
+		<link rel="stylesheet" href="stylesheet.css">
 		<meta name="description" content="POtO Software's Officially Offical Website">
 		<meta name="keywords" content="POtO Software, How To Rob A Gas Station, None Left, indie games, indie dev">
-		<meta name="author" content="Kyle Kailihiwa">
+		<meta name="author" content="Kylee Kailihiwa">
 	</head>
-
 	<body>
-	    <div class="topnav">
-			<a class="active" href="index.html">Home</a>
-			<a href="games.html">Games</a>
-			<a href="aboutme.html">Contact</a>
-			<a href="downloads.html">Downloads</a>
-		</div>
-		
-		<img src="logo.png" alt="POtO Logo" class="logo">
-		<h2>Welcome To My Very Professional Website</h2>
-		<h2>#nosquarespace</h2>
+		<a href="index.html"><img src="images/logo.png" alt="POtO Software Logo" class="logo"></a>
+		<section class="top-banner">
+				<script lang="JAVASCRIPT">
+					var bannerTexts = [
+						"HELLOOOOOOOOOOOOOOO!!! >W<",
+						"WELCOME TO THE COOL ZONE B)",
+						"Have you played How To Rob A Gas Station yet?",
+						"<-- Tip! Click my logo to return here!",
+						"haha mobile users cant see that im about to say something mean"
+					];
 
-		<a href="https://github.com/POtOSoftware"><p>GitHub</p></a>
-		<a href="https://poto-software.itch.io"><p>Itch</p></a>
+					var randomText = Math.floor(bannerTexts.length * Math.random());
+					document.write("<h2>" + bannerTexts[randomText] + "</h2>")
+				</script>
+		</section>
+		<section class="site-directory">
+			<ul>
+				<li><a href="aboutme.html">WHO AM I????</a></li>
+				<li><a href="blog/blog-root.html">Blog</a></li>
+				<li><a href="games.html">Games I Made</a></li>
+				<li><a href="aboutme.html">About Me</a></li>
+				<li><a href="aboutme.html">About Me</a></li>
+				<li><a href="aboutme.html">About Me</a></li>
+			</ul>
+		</section>
 	</body>
-
 </html>

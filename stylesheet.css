@@ -7,14 +7,12 @@ body
 
 h1
 {
-	text-align: center;
 	font-size: 72px
 }
 
 h2
 {
-	text-align: center;
-	font-size: 48px;
+	font-size: 2em;
 }
 
 p
@@ -23,12 +21,28 @@ p
 	font-size: 24px;
 }
 
+a:link {
+  color: #55CDFC;
+}
+
+a:visited {
+  color: #F7A8B8;
+}
+
+a:hover {
+  color: #F7A8B8;
+}
+
+a:active {
+  color: white;
+} 
+
 .logo
 {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 10%;
+	float: left;
+	margin-left: 10px;
+	width: 150px;
+	height: 150px;
 }
 
 .gameicon
@@ -37,31 +51,19 @@ p
 	width: 20%;
 }
 
-.topnav 
+.site-directory
 {
-  background-color: #111;
-  overflow: hidden;
-  font-family: sans-serif;
+	float: left;
+	border-style: solid;
+	margin-left: 5px;
+	width: 240px;
 }
 
-.topnav a 
+.top-banner
 {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover 
-{
-  background-color: white;
-  color: black;
-}
-
-.topnav a.active 
-{
-  background-color: black;
-  color: white;
+	display: block;
+	padding-left: 50px;
+	height: 150px;
+	white-space: nowrap;
+	overflow: hidden;
 }
