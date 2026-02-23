@@ -67,3 +67,8 @@ a:active {
 	white-space: nowrap;
 	overflow: hidden;
 }
+
+.game-buttons
+{
+	display:block;
+}
