@@ -20,6 +20,12 @@ body
 	margin-bottom: 50%;
 }
 
+.none-left
+{
+	background-image:url("images/noneleft/background.png");
+	margin-bottom: 50%;
+}
+
 h1
 {
 	font-size: 62px
@@ -92,4 +98,5 @@ a:active {
 .game-buttons
 {
 	display:block;
+	margin: 10px;
 }
