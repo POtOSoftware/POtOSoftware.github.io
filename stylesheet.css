@@ -16,7 +16,8 @@ body
 .htrags
 {
 	background-image:url("images/htrags/background.png");
-	font-family: 'Comic Sans MS'
+	font-family: 'Comic Sans MS';
+	margin-bottom: 50%;
 }
 
 h1
@@ -32,6 +33,7 @@ h2
 p
 {
 	font-size: 24px;
+	margin-left: 15px;
 }
 
 .center
