@@ -15,9 +15,14 @@ body
 
 .htrags
 {
-	background-image: url("images/htrags/background.png");
+	background-image: url("images/htrags/background.jpeg");
 	font-family: 'Comic Sans MS';
 	margin-bottom: 50%;
+
+	h1
+	{
+		color: #00FF00;
+	}
 }
 
 .htrags-2
@@ -40,8 +45,8 @@ body
 
 .screenshots
 {
-	width: 450px;
-	height: 398px;
+	text-align: center;
+	margin: 20px
 }
 
 h1
