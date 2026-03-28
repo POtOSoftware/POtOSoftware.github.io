@@ -15,14 +15,26 @@ body
 
 .htrags
 {
-	background-image:url("images/htrags/background.png");
+	background-image: url("images/htrags/background.png");
 	font-family: 'Comic Sans MS';
 	margin-bottom: 50%;
 }
 
+.htrags-2
+{
+	background-image: url("images/htrags-2/background.png");
+	margin-bottom: 50%;
+}
+
+.screenshots
+{
+	width: 450px;
+	height: 398px;
+}
+
 .none-left
 {
-	background-image:url("images/noneleft/background.png");
+	background-image: url("images/noneleft/background.png");
 	margin-bottom: 50%;
 }
 
