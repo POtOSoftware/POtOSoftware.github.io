@@ -26,16 +26,22 @@ body
 	margin-bottom: 50%;
 }
 
-.screenshots
-{
-	width: 450px;
-	height: 398px;
-}
-
 .none-left
 {
 	background-image: url("images/noneleft/background.png");
 	margin-bottom: 50%;
+}
+
+.kta
+{
+	background-image: url("images/kta/background.png");
+	margin-bottom: 50%;
+}
+
+.screenshots
+{
+	width: 450px;
+	height: 398px;
 }
 
 h1
@@ -110,5 +116,6 @@ a:active {
 .game-buttons
 {
 	display:block;
-	margin: 10px;
+	margin-left: 10%;
+	margin-right: 10%;
 }
